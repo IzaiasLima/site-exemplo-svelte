@@ -1,22 +1,26 @@
-# create-svelte
+# Site Exemplo Svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Exemplo de site, usando o frontend development framework Svelte, desenvolvido com o propósito de testar as funcionalidades de facilidades oferecidas por essa ferramenta.
 
-## Creating a project
+Na parte de estilização, usamos o framework [Pico CSS](https://picocss.com/).  
 
-If you're seeing this, you've probably already done this step. Congrats!
+Para saber mais sobre o framework utilizado, consulte https://svelte.dev/.
+
+## Criando um projeto
+
+Se você preferir iniciar um novo projeto, em vez de clonar este repositório:
 
 ```bash
-# create a new project in the current directory
+# create a new project in the  frontend directory
 npm create svelte@latest
 
 # create a new project in my-app
 npm create svelte@latest my-app
 ```
 
-## Developing
+## Para rodar em desenvolvimento
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Criado o projeto e atualizadas as dependências com `npm install` (ou `pnpm install` ou `yarn`), inicie o servidor local:
 
 ```bash
 npm run dev
@@ -27,12 +31,12 @@ npm run dev -- --open
 
 ## Building
 
-To create a production version of your app:
+Para criar uma versão em produção:
 
 ```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+Se que quiser um preview do build de produção: `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Para fazer o deploy em produção, veja a documentação do framework: https://kit.svelte.dev/docs/adapters.
