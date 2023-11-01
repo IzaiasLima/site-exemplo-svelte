@@ -1,29 +1,38 @@
 <script lang="ts">
-	import { page } from '$app/stores';
-	import Navbar from '$lib/components/Navbar.svelte';
+  import { page } from "$app/stores";
+  import Navbar from "$lib/components/Navbar.svelte";
 </script>
 
 <body>
-	<div class="hero" data-theme="dark">
-		<Navbar />
-	</div>
+  <Navbar />
 
-	<main class="container">
-		<h1>{$page.status}: {$page.error?.message}</h1>
+  <main class="container">
+    <h1>{$page.status}: {$page.error?.message}</h1>
 
-		<div class="grid">
-			<h3>Parece que tivemos um probleminha aqui...</h3>
-			<div>
-				<a role="button" href="/">Voltar para a página inicial</a>
-			</div>
-		</div>
-	</main>
-	<!-- Footer -->
-	<footer class="container">
-		<small
-			>Built with <a href="https://picocss.com">Pico</a> •
-			<a href="https://github.com/picocss/examples/tree/master/v1-company/">Source code</a></small
-		>
-	</footer>
-	<!-- ./ Footer -->
+    <div>
+      <p>Parece que tivemos um probleminha aqui.</p>
+      <p>A página que você tentou acessar não existe.</p>
+      <p>Favor verificar e tentar novamente.</p>
+      <a role="button" href="/">Voltar para a página inicial</a>
+    </div>
+  </main>
 </body>
+
+<style>
+  main {
+    text-align: center;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  h1 {
+    color: var(--muted-color);
+    font-size: 3rem;
+  }
+  a {
+    margin-top: 3rem;
+  }
+</style>

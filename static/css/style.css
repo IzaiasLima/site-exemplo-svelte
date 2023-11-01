@@ -5,17 +5,52 @@
 	--border-radius: 10px;
 }
 
-/* body::-webkit-scrollbar {
-	display: none;
-} */
+body {
+	overflow-y: visible;
+}
 
 article>footer,
 article>header {
 	padding-bottom: calc(var(--block-spacing-vertical) * .1);
 }
 
+
+/* Hero */
+.hero {
+	background: url("../img/fachada.webp");
+	background-position: center;
+	background-size: cover;
+	margin-top: -120px;
+}
+
+/* header {
+	top: 0;
+	width: 100%;
+} */
+
 header>h3 {
 	margin-bottom: 0;
+}
+
+
+
+/* Header */
+/* header.container {
+	padding: var(--spacing-company * 0) 0;
+} */
+
+header hgroup> :last-child {
+	color: var(--h3-color);
+}
+
+header hgroup {
+	margin-top: var(--spacing-company);
+	margin-bottom: var(--spacing-company);
+}
+
+hgroup>h1 {
+	padding-top: 5em;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
 /* Typography */
@@ -27,26 +62,6 @@ hgroup> :last-child {
 
 small {
 	color: var(--muted-color);
-}
-
-/* Header */
-.hero {
-	background-color: #394046;
-	background-image: url('../img/sascha-eremin-DNQ-M93tHmA-unsplash-3000x1000.jpg');
-	background-position: center;
-	background-size: cover;
-}
-
-header {
-	padding: var(--spacing-company) 0;
-}
-
-header hgroup> :last-child {
-	color: var(--h3-color);
-}
-
-header hgroup {
-	margin-bottom: var(--spacing-company);
 }
 
 /* Nav */

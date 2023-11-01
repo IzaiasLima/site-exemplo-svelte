@@ -46,7 +46,6 @@ declare module '$env/static/private' {
 	export const npm_config_userconfig: string;
 	export const npm_config_local_prefix: string;
 	export const DBUS_SESSION_BUS_ADDRESS: string;
-	export const npm_config_engine_strict: string;
 	export const COLORTERM: string;
 	export const LIBVIRT_DEFAULT_URI: string;
 	export const COLOR: string;
@@ -154,7 +153,6 @@ declare module '$env/dynamic/private' {
 		npm_config_userconfig: string;
 		npm_config_local_prefix: string;
 		DBUS_SESSION_BUS_ADDRESS: string;
-		npm_config_engine_strict: string;
 		COLORTERM: string;
 		LIBVIRT_DEFAULT_URI: string;
 		COLOR: string;

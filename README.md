@@ -1,6 +1,6 @@
 # Site Exemplo Svelte
 
-Exemplo de site, usando o frontend development framework Svelte, desenvolvido com o propósito de testar as funcionalidades de facilidades oferecidas por essa ferramenta.
+Exemplo de site, usando o framework de desenvolvimento de frontend **Svelte**. Este site foi desenvolvido com o propósito, apenas, de testar as funcionalidades e facilidades oferecidas por essa ferramenta de desenvolvimento.
 
 Na parte de estilização, usamos o framework [Pico CSS](https://picocss.com/).  
 
